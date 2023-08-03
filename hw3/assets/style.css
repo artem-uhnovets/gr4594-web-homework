@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* width: 1872px; */
+    /* margin: auto; */
+    color: black;
+    
+    
+}
+.background {
+    width: 1842px;
+    height: 942px;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    background-color: #494d5f;
+}
+.topsmallhat {
+    width: 1142px;
+    height: 26px;
+}
+.page {
+    display: flex;
+    width: 1142px;
+    height: 890px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #e5eaf5;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.greetings {
+    display: flex;
+    width: 668px;
+    height: 128px;
+    border-right: 1px solid #a3a7aa;
+    border-bottom: 1px solid #a3a7aa;
+    border-radius: 4px 4px 10px 4px;
+    margin-top: 16px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.greetingstext {
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+ }
+
+.redtext {
+    color: red;
+}
+
+.active {
+    border-color: #333;
+    color: green;
+}
+
+.btn {
+    height: 128px;
+    width: 442px;
+    
+    margin-top: 16px;
+    margin-left: 32px;
+    border-width: 0px;
+    background: linear-gradient(to right top, #a0d2eb, #e5eaf5, #e5eaf5);
+    border-radius: 4px 4px 4px 10px;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.btn:hover {
+    background: linear-gradient(to right top, #a0d2eb, #c6c9d1, #e5eaf5);
+}
+
+.btn:active {
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    
+}
+
+.btn2 {
+    height: 262px;
+
+    /* width: 1142px; */
+    
+    margin-top: 16px;
+    font-size: 50px;
+    border-width: 0px;
+    background: linear-gradient(to bottom, #e5eaf5, #d0bdf4);
+    border-radius: 4px 4px 10px 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn2:hover {
+    background: linear-gradient(to bottom, #c6c9d1, #d0bdf4);
+}
+
+.btn2:active {
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    background-color: #d0bdf4;
+    border-color: #333;
+    
+}
